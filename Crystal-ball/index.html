@@ -2,6 +2,21 @@
 <html>
 <body>
 
+<style>
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+</style>
+
+<style type="text/css">
+      .hidden {
+        display: none;
+      }
+</style>
+
 <h1>Crystal Ball</h1>
 
 <div>
@@ -62,13 +77,25 @@ function typeWriter3() {
     document.getElementById("demo3").innerHTML += txt3.charAt(k);
     k++;
     setTimeout(typeWriter3, speed);
+    }else{{appear1()}
   }
 }
+
+ 
 </script>
 </div>
 
 <div>
 
+<script>
+function appear1(){ 
+ 
+ document.getElementById('hidden').style.display = 'block';
+   
+ 
+ }
+</script> 
+  <img id="hidden" class="hidden" src="https://media.giphy.com/media/3o6ZsXWwgTWagYMikw/giphy.gif" />
 </div>
 </body>
 </html>
