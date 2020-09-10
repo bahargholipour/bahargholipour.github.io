@@ -41,7 +41,7 @@
     "hashtable": "2.0.1",
     "http-proxy": "1.16.2",
     "javascript-state-machine": "2.4.0",
-    "node-fetch": "1.6.3",
+    "node-fetch": "2.6.1",
     "object-sizeof": "1.1.1",
     "redux": "3.6.0",
     "redux-actions": "1.1.0",
